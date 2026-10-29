@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "dam_laboratoare"
 include(":app")
 include(":laborator4")
+include(":sem5")

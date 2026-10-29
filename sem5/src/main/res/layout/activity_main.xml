@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/etDenumire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introdu denumirea produsului"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etPret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introdu prețul produsului"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnAdauga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adaugă Produs"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Buton nou pentru a deschide lista -->
+    <Button
+        android:id="@+id/btnVeziLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vezi Lista Produse" />
+
+</LinearLayout>
